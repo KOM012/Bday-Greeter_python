@@ -403,7 +403,6 @@ def show_celebration_page():
         st.markdown('<div class="celebration-message">Happy Birthday Jackielou Trongcoso</div>', unsafe_allow_html=True)
         st.markdown('<div class="celebration-quote">"May your day be filled with joy, laughter, and love"</div>', unsafe_allow_html=True)
         st.markdown('<div class="celebration-wish">Wishing you all the happiness in the world!</div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
         
         # Icons with animations
         st.markdown("""
@@ -522,4 +521,4 @@ else:
                 st.balloons()
                 
                 # Immediate rerun to show celebration page
-                st.rerun()#code here
+                st.rerun()
